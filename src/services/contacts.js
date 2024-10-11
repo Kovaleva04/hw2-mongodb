@@ -32,7 +32,7 @@ export const getAllContacts = async ({
 };
 
 export const getContactsById = async (contactcId, userId) => {
-  const contact = await ContactsCollection.findByOne({
+  const contact = await ContactsCollection.findById({
     _id: contactcId,
     userId,
   });
