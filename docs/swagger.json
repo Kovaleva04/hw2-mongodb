@@ -266,7 +266,7 @@
           "parameters": [
             {
               "in": "path",
-              "name": ":contactId",
+              "name": "contactId",
               "required": true,
               "schema": {
                 "type": "string",
