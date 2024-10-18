@@ -18,8 +18,8 @@ export const SMTP = {
 
 export const CLOUDINARY = {
   CLOUDINARY_CLOUD_NAME: 'CLOUDINARY_CLOUD_NAME',
-  API_KEY: 'API_KEY',
-  API_SECRET: 'API_SECRET',
+  CLOUDINARY_API_KEY: 'CLOUDINARY_API_KEY',
+  CLOUDINARY_API_SECRET: 'CLOUDINARY_API_SECRET',
 };
 export const TEMPLATES_DIR = path.join(process.cwd(), 'src', 'templates');
 
