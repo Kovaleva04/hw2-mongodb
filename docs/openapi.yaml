@@ -10,7 +10,7 @@ tags:
   - name: Contacts
 
 servers:
-  - url: https://nodejs-hw-mongodb-5-wwd3.onrender.com
+  - url: https://hw2-mongodb-9-8u05.onrender.com
 paths:
   /contacts:
     post:
